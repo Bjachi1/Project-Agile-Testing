@@ -1,5 +1,0 @@
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\DAL_Website Project Agile\bin\Debug\netcoreapp3.1\DAL_Website Project Agile.deps.json
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\DAL_Website Project Agile\bin\Debug\netcoreapp3.1\DAL_Website Project Agile.dll
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\DAL_Website Project Agile\obj\Debug\netcoreapp3.1\DAL_Website Project Agile.csprojAssemblyReference.cache
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\DAL_Website Project Agile\obj\Debug\netcoreapp3.1\DAL_Website Project Agile.AssemblyInfoInputs.cache
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\DAL_Website Project Agile\obj\Debug\netcoreapp3.1\DAL_Website Project Agile.AssemblyInfo.cs

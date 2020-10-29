@@ -14,5 +14,6 @@ namespace Website_Project_Agile.Areas.Identity.Data
     {
         public int? Favorite_id { get; set; }
         [ForeignKey("Favorite_id")] public Favorite Favorite { get; set; }
+        public ICollection<ShoppingList> ShoppingLists { get; set; }
     }
 }
