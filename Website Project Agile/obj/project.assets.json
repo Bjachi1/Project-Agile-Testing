@@ -8814,19 +8814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bjarn\\.nuget\\packages\\": {}
+    "C:\\Users\\Jarno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bjarn\\Source\\Repos\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
+      "projectUniqueName": "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing-main\\Website Project Agile\\Website Project Agile.csproj",
       "projectName": "Website Project Agile",
-      "projectPath": "C:\\Users\\bjarn\\Source\\Repos\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
-      "packagesPath": "C:\\Users\\bjarn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bjarn\\Source\\Repos\\Project-Agile-Testing\\Website Project Agile\\obj\\",
+      "projectPath": "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing-main\\Website Project Agile\\Website Project Agile.csproj",
+      "packagesPath": "C:\\Users\\Jarno\\.nuget\\packages\\",
+      "outputPath": "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing-main\\Website Project Agile\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bjarn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jarno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8834,8 +8834,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.emzi0767.com/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -8908,7 +8907,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
