@@ -59,8 +59,8 @@ namespace Website_Project_Agile.Areas.Identity.Pages.Account
 
                 await _emailSender.SendEmailAsync(
                     Input.Email,
-                    "Reset Password",
-                    $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    "Wachtwoord resetten",
+                    $"Reset uw wachtworod door <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>HIER</a> te klikken.");
 
                 return RedirectToPage("./ForgotPasswordConfirmation");
             }
