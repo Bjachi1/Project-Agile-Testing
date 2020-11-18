@@ -5,9 +5,11 @@
     ViewData["Title"] = "Aanmelden";
 }
 
-<h1 class="text-center">@ViewData["Title"]</h1>
-<div class="row" >
-    <div style=" margin-left: 350px">
+<div class="text-center">
+    <h1 class="display-4">Welkom bij Winkellijstje</h1>
+    <p>Gelieve aan te melden voor uw persoonlijke winkellijst te raadplegen.</p>
+</div>
+<div class="row justify-content-center" >
         <section>
             <form id="account" method="post">
                 <h4>Gebruik uw email adres om aan te melden</h4>
@@ -32,19 +34,18 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Aanmelden</button>
+                    <button type="submit" class="btn text-white" style="background-color: rgba(77, 71, 96, 0.9);">Aanmelden</button>
                 </div>
-                <div class="form-group">
+                <div class="form-group" style="color: rgba(77, 71, 96, 0.9);">
                     <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Paswoord vergeten?</a>
+                        <a style="color: rgba(77, 71, 96, 0.9);" id="forgot-password" asp-page="./ForgotPassword">Wachtwoord vergeten?</a>
                     </p>
                     <p>
-                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Registeren als een nieuwe gebruiker</a>
+                        <a style="color: rgba(77, 71, 96, 0.9);" asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Registeren als een nieuwe gebruiker</a>
                     </p>
                 </div>
             </form>
         </section>
-    </div>
 </div>
 
 @section Scripts {

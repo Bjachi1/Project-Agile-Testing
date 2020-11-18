@@ -38,8 +38,8 @@ namespace Website_Project_Agile.Areas.Identity.Pages.Account
             public string Password { get; set; }
 
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Display(Name = "Bevestig wachtwoord")]
+            [Compare("Password", ErrorMessage = "Het wachtwoord en het bevestigde wachtwoord matchen niet!")]
             public string ConfirmPassword { get; set; }
 
             public string Code { get; set; }
