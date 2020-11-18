@@ -48,6 +48,7 @@ namespace Website_Project_Agile.Areas.Identity.Pages.Account
             public string Email { get; set; }
 
             [Required]
+            [MinLength(4)]
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
