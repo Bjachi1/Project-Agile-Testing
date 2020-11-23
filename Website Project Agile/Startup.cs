@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +29,7 @@ namespace Website_Project_Agile
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();
             services.Configure<IdentityOptions>(options =>
             {
                 options.Password.RequiredLength = 4;
@@ -37,14 +39,21 @@ namespace Website_Project_Agile
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequiredUniqueChars = 2;
             });
-            services.AddMvc().AddRazorPagesOptions(options => {
-                options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "");
-            }).SetCompatibilityVersion(CompatibilityVersion.Latest);
+            services.AddDbContext<Website_Project_AgileContext>(options =>
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("Website_Project_AgileContextConnection")));
+
+                services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddEntityFrameworkStores<Website_Project_AgileContext>();
+                services.AddMvc().AddRazorPagesOptions(options => {
+                    options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "");
+                }).SetCompatibilityVersion(CompatibilityVersion.Latest);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -66,7 +75,7 @@ namespace Website_Project_Agile
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{area=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
 

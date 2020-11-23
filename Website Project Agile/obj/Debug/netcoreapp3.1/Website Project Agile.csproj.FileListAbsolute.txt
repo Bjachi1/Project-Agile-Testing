@@ -1,8 +1,5 @@
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.json
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.local.json
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Website Project Agile.StaticWebAssets.xml
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Website Project Agile.exe
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Website Project Agile.deps.json
@@ -27,10 +24,13 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
@@ -39,6 +39,7 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
@@ -63,6 +64,10 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
@@ -74,6 +79,7 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -131,6 +137,18 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
@@ -142,6 +160,9 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.RazorAssemblyInfo.cache
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.RazorAssemblyInfo.cs
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\staticwebassets\Website Project Agile.StaticWebAssets.Manifest.cache
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\staticwebassets\Website Project Agile.StaticWebAssets.xml
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\scopedcss\bundle\Website Project Agile.styles.css
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.TagHelpers.input.cache
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.TagHelpers.output.cache
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.RazorCoreGenerate.cache
@@ -167,8 +188,11 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.RazorTargetAssemblyInfo.cs
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.Views.pdb
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.csproj.CopyComplete
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\staticwebassets\Website Project Agile.StaticWebAssets.Manifest.cache
-C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\staticwebassets\Website Project Agile.StaticWebAssets.xml
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.dll
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.pdb
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Website Project Agile.genruntimeconfig.cache
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
