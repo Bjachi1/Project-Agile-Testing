@@ -48,6 +48,7 @@ namespace Website_Project_Agile.Areas.Identity.Pages.Account
             public string Email { get; set; }
 
             [Required]
+            [StringLength(100, ErrorMessage = "Het {0} moet minstens {2} en maximum {1} karakters lang zijn.", MinimumLength = 4)]
             [MinLength(4)]
             [DataType(DataType.Password)]
             public string Password { get; set; }
