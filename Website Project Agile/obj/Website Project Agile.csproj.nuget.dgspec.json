@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\AA Thomas More\\2020 - 2021\\Project Agile\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {}
+    "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {}
   },
   "projects": {
-    "E:\\AA Thomas More\\2020 - 2021\\Project Agile\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {
+    "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\AA Thomas More\\2020 - 2021\\Project Agile\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
         "projectName": "Website Project Agile",
-        "projectPath": "E:\\AA Thomas More\\2020 - 2021\\Project Agile\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
-        "packagesPath": "C:\\Users\\Jarno\\.nuget\\packages\\",
-        "outputPath": "E:\\AA Thomas More\\2020 - 2021\\Project Agile\\Project-Agile-Testing\\Website Project Agile\\obj\\",
+        "projectPath": "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jarno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -26,12 +31,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
         "warningProperties": {
-          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -39,7 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -50,6 +52,14 @@
               "version": "[3.1.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
               "version": "[3.1.10, )"
             },
@@ -94,11 +104,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
->>>>>>> 73242eea9027becd78cb195a1b8ab8d3a50bebcf
         }
       }
     }

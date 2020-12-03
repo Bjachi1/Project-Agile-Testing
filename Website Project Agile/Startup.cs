@@ -43,11 +43,11 @@ namespace Website_Project_Agile
                     options.UseSqlServer(
                         Configuration.GetConnectionString("Website_Project_AgileContextConnection")));
 
-                services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<Website_Project_AgileContext>();
-                services.AddMvc().AddRazorPagesOptions(options => {
-                    options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "");
-                }).SetCompatibilityVersion(CompatibilityVersion.Latest);
+            services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<Website_Project_AgileContext>();
+            services.AddMvc().AddRazorPagesOptions(options => {
+                options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "");
+            }).SetCompatibilityVersion(CompatibilityVersion.Latest);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

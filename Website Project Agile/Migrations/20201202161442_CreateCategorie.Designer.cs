@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Website_Project_Agile.Data;
 
 namespace Website_Project_Agile.Migrations
 {
     [DbContext(typeof(Website_Project_AgileContext))]
-    partial class Website_Project_AgileContextModelSnapshot : ModelSnapshot
+    [Migration("20201202161442_CreateCategorie")]
+    partial class CreateCategorie
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
