@@ -12,6 +12,8 @@ namespace Website_Project_Agile.Models
     {
         public int id { get; set; }
         [Required] public string Customer_id { get; set; }
+        [Display(Name = "Naam winkellijst")]
+
         [Required] public string Name { get; set; }
         [ForeignKey("Customer_id")] public ApplicationUser user { get; set; }
         public ICollection<Shoppinglist_Product> ShoppinglistProducts { get; set; }

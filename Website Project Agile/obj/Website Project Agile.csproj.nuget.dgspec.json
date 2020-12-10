@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {}
+    "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {
+    "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
+        "projectUniqueName": "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
         "projectName": "Website Project Agile",
-        "projectPath": "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Downloads\\Project-Agile-Testing\\Project-Agile-Testing\\Website Project Agile\\obj\\",
+        "projectPath": "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing\\Website Project Agile\\Website Project Agile.csproj",
+        "packagesPath": "C:\\Users\\Jarno\\.nuget\\packages\\",
+        "outputPath": "E:\\AA Thomas More\\2020 - 2021\\Agile & Testing\\Project-Agile-Testing\\Website Project Agile\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Jarno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
