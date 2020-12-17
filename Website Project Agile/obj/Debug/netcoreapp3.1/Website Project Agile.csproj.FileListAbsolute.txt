@@ -828,3 +828,4 @@ C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debu
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Shoppinglist_Product\Details.cshtml.g.cs
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Shoppinglist_Product\Edit.cshtml.g.cs
 C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Views\Shoppinglist_Product\Index.cshtml.g.cs
+C:\Users\bjarn\Source\Repos\Project-Agile-Testing\Website Project Agile\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs

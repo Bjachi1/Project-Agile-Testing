@@ -17,18 +17,22 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Name)
         </dd>
-        <ul>
-            @foreach (var item in Model.Products)
-            {
-                <li>@item.Name Aantal: @item.Amount       <a asp-controller="Shoppinglist_Product" asp-action="Delete" asp-route-id="@item.Id">Delete</a></li>
-            }
-        </ul>
+        <table class="table">
+        @foreach (var item in Model.Products)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>Aantal: @item.Amount</td>
+                <td><a asp-controller="Shoppinglist_Product" asp-action="Delete" asp-route-id="@item.Id">Verwijderen</a></td>
+            </tr>
+        }
+        </table>
         <dd class="col-sm-2">
             <a asp-controller="Shoppinglist_Product" asp-action="Create" asp-route-idShoppingList="@Model.id">Product Toevoegen</a>
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.id">Aanpassen</a> |
+    <a asp-action="Index">Ga terug</a>
 </div>

@@ -41,7 +41,7 @@ namespace Website_Project_Agile.Controllers
             }
 
             var shoppingList = await _context.ShoppingLists
-                .Include(s => s.user).Include(x=>x.ShoppinglistProducts).ThenInclude(c=>c.Product)
+                .Include(s => s.user).Include(x=>x.ShoppinglistProducts).ThenInclude(c=>c.Product).ThenInclude(w=>w.Category)
                 .FirstOrDefaultAsync(m => m.id == id);
 
             ShoppingListViewModel viewModel = new ShoppingListViewModel();
@@ -54,6 +54,7 @@ namespace Website_Project_Agile.Controllers
                 product.Name = item.Product.Name;
                 product.Amount = item.Amount;
                 product.Id = item.id;
+                product.LocationId = item.Product.Category.LocationId;
                 viewModel.Products.Add(product);
             }
 
